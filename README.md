@@ -1,6 +1,9 @@
-# Interactive Illustation of a customizable Interpolation Function
+# Illustation of a Interpolation Function
 
 Demo: http://mgrf.de/dev/spreadPlot/
+
+Drag graph to adjust y.
+Mouse over blue circle to test.
 
 Similar to [Ease-In-Out Interpolation](https://www.w3.org/TR/css3-transitions/#transition-timing-function-property), but with better properties:
 
