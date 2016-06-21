@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#spreadPlot {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	/*padding: 3%;*/
+	box-sizing: border-box;
+}
+#spreadPlot svg {
+	/*border: 1px solid rgba(0,0,0,0.2);*/
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+#spreadPlot .graph {
+	fill: none;
+	stroke: red;
+	stroke-width: 0.025;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+}
+#spreadPlot .axis {
+	stroke: #bcbcbc;
+	stroke-width: 0.03;
+}
+#spreadPlot .markPoint {
+	stroke: rgba(0, 0, 0, 0.13);
+	stroke-width: 0.008;
+}
+#spreadPlot .playBallLine {
+	stroke: rgba(88, 178, 255, 0.51);
+	stroke-width: 0.015;
+	stroke-linecap: round;
+}
+#spreadPlot text {
+	font-size: 0.1px;
+}

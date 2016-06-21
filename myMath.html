@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MyMath</title>
+</head>
+<body>
+
+<!--const spreadFn = (y) => y === 0 ? (x) => x-->
+<!--: (y > 0-->
+<!--    ? (x) => Math.atan( (x-0.5)*y*2 )/Math.atan(y)/2+0.5-->
+<!--    : (x) => Math.tan( (x-0.5)*Math.atan(-y)*2 )/-y/2+0.5 /*inverse*/-->
+
+
+<!-- Identifier <mi>, Operator <mo>, Number <mn>  -->
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+	<mi>f</mi>
+	<mfenced>
+		<mi>x</mi>
+		<mi>y</mi>
+	</mfenced>
+	<mo>=</mo>
+	<mrow>
+		<mfrac>
+			<mrow>
+				<msup>
+					<mi>tan</mi>
+					<mn>-1</mn>
+				</msup>
+				<mo>(</mo>
+				<mfenced>
+					<mrow>
+						<mi>x</mi>
+						<mo>-</mo>
+						<mn>0.5</mn>
+					</mrow>
+				</mfenced>
+				<mo>&CenterDot;</mo>
+				<mn>2</mn>
+				<mo>&CenterDot;</mo>
+				<mi>y</mi>
+				<mo>)</mo>
+			</mrow>
+			<mrow>
+				<msup>
+					<mo>tan</mo>
+					<mn>-1</mn>
+				</msup>
+				<mfenced>
+					<mrow>
+						<mi>y</mi>
+					</mrow>
+				</mfenced>
+				<mo>&CenterDot;</mo>
+				<mn>2</mn>
+			</mrow>
+		</mfrac>
+		<mo>+</mo>
+		<mn>0.5</mn>
+	</mrow>
+</math>
+
+</body>
+</html>
