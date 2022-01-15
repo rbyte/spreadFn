@@ -1,6 +1,6 @@
 # Illustation of an Interpolation Function
 
-Demo: http://mgrf.de/dev/spreadPlot/
+https://rbyte.github.io/spreadFn/
 
 Drag graph to adjust y.
 Mouse over blue circle to test.
